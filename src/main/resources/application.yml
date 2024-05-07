@@ -1,0 +1,13 @@
+spring:
+  couchbase:
+    connection-string: couchbase://localhost
+    user-name: Administrator
+    password: password
+  data:
+    couchbase:
+      bucket-name: redis-service
+      autoIndex: true
+
+redis:
+  host: localhost
+  port: 6379

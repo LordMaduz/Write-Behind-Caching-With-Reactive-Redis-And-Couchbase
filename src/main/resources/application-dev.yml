@@ -1,0 +1,10 @@
+spring:
+  couchbase:
+    connection-string: couchbase://localhost
+    user-name: ${USERNAME}
+    password: ${PASSWORD}}
+  data:
+    couchbase:
+      bucket-name: ${BUCKET_NAME}
+      autoIndex: true
+
